@@ -1,2 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#navbar_div {
+    background-color: #232f3f;
+    width: 100%;
+    height: 50px;
+    display: flex; /* Flex container for vertical alignment */
+    justify-content: center; /* Centers horizontally if needed */
+    align-items: center; /* Centers vertically */
+}
+#list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 50%; /* Optional: adjust width to control spacing */
+}
+#list > li > a {
+    color: #eae3d6;
+    text-decoration: none;
+}
+#list > li > a:hover {
+    text-decoration: underline;
+    color: gray;
+    box-shadow: 2px 2px 2px gray;
+}
 
-/* Your CSS Code here. */
+#audio_section {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eef5f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#audio_section h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.audio_track {
+    margin-bottom: 15px;
+}
+
+.audio_track audio {
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
